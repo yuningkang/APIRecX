@@ -1,0 +1,17 @@
+{
+  "data":{
+    "train_file":"./data/SST2/train.txt",
+    "dev_file":"./data/SST2/dev.txt",
+    "test_file":"./data/SST2/test.txt",
+    "embedding_weight":"./data/glove.mini.100d.txt"
+
+  },
+"vocab":{
+  "load_vocab":"./vocab/word_vocab.pkl",
+  "save_vocab":"./vocab/word_vocab.pkl"
+
+
+
+}
+}
+
