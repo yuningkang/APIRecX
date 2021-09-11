@@ -1,0 +1,24 @@
+{
+  "data":{
+    "raw_seq_data": "./data/io_seq_clean_oneseq_bpe_token.txt",
+    "raw_seq_data_1": "./data/cipher_add_clean_data_oneseq_bpe_token.txt",
+    "train_file":"./data/train_data_jdbc_encoded",
+    "dev_file":"./data/API/jdbc_seq_clean_test_token.txt",
+    "test_file":"./data/API/swing_seq_clean_token.txt",
+    "embedding_weight":"./data/API/embedding_encoded_jdk_256_nodomain.txt"
+
+  },
+"vocab":{
+  "load_vocab":"./data/API/trained_model_-1_cs",
+  "save_vocab":"./vocab/word_vocab.pkl"
+
+
+
+},
+  "model":{
+  "load_model":"./data/API/trained_model_-1_jdbc",
+  "save_model":"./vocab/word_vocab.pkl"
+
+}
+}
+

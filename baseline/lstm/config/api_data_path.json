@@ -1,0 +1,23 @@
+{
+  "data":{
+    "raw_seq_data": "./data/API/data/all_remove_domain_clean_new.txt",
+    "train_file":"./data/API/data/jdbc_clean_oneseq.txt",
+    "dev_file":"./data/SST2/dev.txt",
+    "test_file":"./data/API/misuse_data.txt",
+    "embedding_weight":"./data/API/data/api_embedding_256_token_removedomain_par.txt"
+
+  },
+"vocab":{
+  "load_vocab":"./data/API/trained_model_-1_cs",
+  "save_vocab":"./vocab/word_vocab.pkl"
+
+
+
+},
+  "model":{
+  "load_model":"./data/API/trained_model_-1_jdbc",
+  "save_model":"./vocab/word_vocab.pkl"
+
+}
+}
+
